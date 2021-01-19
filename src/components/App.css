@@ -1,0 +1,18 @@
+.error {
+  color: rgb(255, 107, 107);
+  font-size: 12px;
+  height: 12px;
+}
+
+.submit-error {
+  color: rgb(255, 107, 107);
+  font-size: 14px;
+  height: 14px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.submit-error::first-letter {
+  text-transform: uppercase;
+}
+

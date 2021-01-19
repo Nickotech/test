@@ -1,0 +1,15 @@
+.main-content-wrapper {
+    padding: 0 30px; 
+    box-sizing: border-box;
+}
+
+.main-content-wrapper .main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width: 982px ) {
+    .main-content-wrapper .main-content {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,60 @@
+.verical-nav-wrapper {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 70px;
+}
+
+.verical-nav-wrapper a {
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(75, 74, 74);
+    line-height: 45px;
+}
+
+.verical-nav-wrapper a.active {
+    background-color:  rgb(250, 248, 233);
+}
+
+.verical-nav-wrapper p {
+    font-size: 16px;
+    color: rgb(75, 74, 74);
+    line-height: 45px;
+    border-top: 1px solid rgb(236, 233, 233);
+    margin: 0;
+    cursor: pointer;
+}
+
+.verical-nav-wrapper a i,
+.verical-nav-wrapper p i {
+    color: rgb(128, 128, 128);
+    padding-left: 10px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 982px ) {
+    .verical-nav-wrapper {
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-right: 0;
+    }
+
+    .verical-nav-wrapper a {
+        font-size: 15px;
+        width: 120px;
+    }
+
+    .verical-nav-wrapper p {
+        font-size: 15px;
+        border-top: none;
+    }
+}
+
+@media screen and (max-width: 400px ) {
+    .verical-nav-wrapper a {
+        font-size: 15px;
+        width: fit-content;
+    }
+
+}

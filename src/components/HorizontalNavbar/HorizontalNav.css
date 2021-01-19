@@ -1,0 +1,26 @@
+.horisontal-nav-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.horisontal-nav-wrapper h3 {
+    font-size: 20px;
+}
+
+.horisontal-nav-wrapper .signed-user {
+    text-align: right;
+}
+
+.horisontal-nav-wrapper .signed-user p {
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 16px;
+}
+
+.horisontal-nav-wrapper .signed-user span {
+    color: gray;
+    font-size: 13px;
+    font-weight: 700;
+}
